@@ -45,5 +45,17 @@ section#login > div#imagem {
 }
 section#login > div#formulario {
     display: block;
-    padding: 10px;
+    
+}
+div#formulario h1 {
+    text-align: center;
+    color: #49a09d;
+    padding-bottom: 10px;
+}
+div#formulario p {
+    margin-bottom: 0.8em;
+    text-align: 0.8em;
+}
+div.campo {
+    padding-bottom: 10px;
 }
