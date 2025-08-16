@@ -61,13 +61,30 @@ form > div.campo {
     background-color: #5f2c82;
     width: 100%;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 
     
 }
-form div.campo > label{
+ div.campo > label{
     display: none;
+}
+div.campo i {
+    width: 40px;
+    font-size: 2em;
+    color: white;
+    padding: 5px;
+    
+}
+div.campo > input {
+    background-color:#b8f0ee ;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    transform: translateY(-11px);
+    height: 100%;
+    border-radius: 8px;
+    padding: 4px;
+    border: 1px solid #5f2c82;
 }
 
 form > input[type=submit]{
